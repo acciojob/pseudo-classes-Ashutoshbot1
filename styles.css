@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+
+:root{
+	margin:0px;
+	padding:0px;
+	background-color:lightblue;
+}
+
+p:first-child{
+	background:black;
+	color:white;
+}
+
+p:last-child{
+	color:red;
+}
+
+li{
+	padding:0.5rem;
+}
+
+
+li:first-child,
+li:last-child{
+	background:white;
+	font-size:1.5rem;
+}
+
+li:nth-child(2n){
+	background:#797979;
+}
+
+li:nth-child(3n){
+	background:pink;
+}
